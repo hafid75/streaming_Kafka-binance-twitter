@@ -8,10 +8,10 @@ import tweepy
 p = KafkaProducer(bootstrap_servers=['localhost:9092'])
 
 
-consumer_key = 'fDLolIWAySzQBp6JxQh9z484e'
-consumer_secret = 'ajGDn5PMfEjrMXB8UkROHnVCCCeoxIYcHn4ZiD5NnL0mszRagE'
-access_token = '1012622045186871296-g1cxl2KjYsofTNnzf9cAMx1SxHVyQA'
-access_token_secret = '29GDmqe5SWT1mWwOGMGfqo1AtpAgRtz5ArrKzdLDGabfG'
+consumer_key = 'XXXXXXX'
+consumer_secret = 'XXXXXX'
+access_token = 'XXXXXX'
+access_token_secret = 'XXXXXX'
 
 authentification = tweepy.OAuthHandler(consumer_key, consumer_secret)
 authentification.set_access_token(access_token, access_token_secret)
